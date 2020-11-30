@@ -3,30 +3,30 @@ repository: sproogen/resume-theme
 favicon: images/favicon.ico
 
 # Personal info
-name: Brett Harris
-title: Senior Network System Administrator
-email: brett.h@email.co.uk
-website: www.github.com/sproogen/resume-theme
+name: Mohammad R Nateghi
+title: IT consultant / Executive / Freelancer
+email: Nateghi7@gmail.com
+website: https://nateghi7.github.io/CV/
 
 # Social links
-twitter_username: facespics
-github_username:  sproogen
+twitter_username: Nateghi7
+github_username:  Nateghi
 # dribbble_username: jekyll
 # facebook_username: jekyll
 # flickr_username: jekyll
-instagram_username: chillwildlife
-linkedin_username: jameswgrant
+instagram_username: c
+linkedin_username: j
 # pinterest_username: jekyll
-youtube_username: globalmtb
+youtube_username: g
 # googleplus_username: +jekyll
 
 # About Section
 # about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Hi, my name's Brett and I'm a senior network system administrator. As well as administrating systems I also have experience making software and web apps. I have worked at a number of companies gaining teamwork and leadership skills.
+  I am Moe,A passionate person about computers and technology since I’ve found my fascination with these devices. I have had different positions in IT Industry and been on a wild journey of “how this tech works” and “how can I overcome this issue” which led me face different aspect of Computer Science and relative problem-solving Skills. From help desk to Hardware, Crypto-Mining, Networks Security I do have an enthusiastic approach to find the new skillsets which demand is going to flourish.
 
-  I am most skilled in: <mark>AWS</mark> and <mark>Eating Pizza</mark>
+  I am most skilled in: <mark>Computer Networks</mark> and <mark>Bitcoin and Cryptocurrencies</mark>
 
 # Projects Section
 # projects_title: Projects
