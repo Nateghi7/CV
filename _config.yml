@@ -3,19 +3,19 @@ repository: sproogen/resume-theme
 favicon: images/favicon.ico
 
 # Personal info
-name: Mohammad R Nateghi
+name: Mohammad R Nateghi محمدرضا ناطقی
 title: IT consultant / Executive / Freelancer
 email: Nateghi7@gmail.com
 website: https://nateghi7.github.io/CV/
 
 # Social links
 twitter_username: Nateghi7
-github_username:  Nateghi
+github_username:  Nateghi7
 # dribbble_username: jekyll
 # facebook_username: jekyll
 # flickr_username: jekyll
-instagram_username: c
-linkedin_username: j
+instagram_username: Null
+linkedin_username: Null
 # pinterest_username: jekyll
 youtube_username: g
 # googleplus_username: +jekyll
@@ -24,7 +24,7 @@ youtube_username: g
 # about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  I am Moe,A passionate person about computers and technology since I’ve found my fascination with these devices. I have had different positions in IT Industry and been on a wild journey of “how this tech works” and “how can I overcome this issue” which led me face different aspect of Computer Science and relative problem-solving Skills. From help desk to Hardware, Crypto-Mining, Networks Security I do have an enthusiastic approach to find the new skillsets which demand is going to flourish.
+  I am Moe,A passionate person about computers and technology since I’ve found my fascination with these devices. I have had different positions in IT Industry and been on a wild journey of “How this tech works?” and “What are the possible solutions?” which led me to face different aspect of the industry and relative problem-solving Skills. From help desk to Hardware, Crypto-Mining, Networks Security I do have an enthusiastic approach to find the new skillsets which demand is going to flourish.
 
   I am most skilled in: <mark>Computer Networks</mark> and <mark>Bitcoin and Cryptocurrencies</mark>
 
@@ -41,9 +41,9 @@ about_content: | # this will include new lines to allow paragraphs
 # more_title: A Little More About Me
 more_content: | # this will include new lines to allow paragraphs
   Alongside my interests in networks and software engineering some of my other interests and hobbies are:
-   - Rock climbing
+   - Basketball
    - Gaming
-   - Knitting
+   - Financial Markets
    - [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg)
 
 # Footer
