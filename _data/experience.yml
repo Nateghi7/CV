@@ -14,18 +14,23 @@
   dates: Jan 2015 - Dec 2016
   description: Hardware/Software Implementation. Sales and customer services.
   
+- layout: left
+  company: None
+  link: 
+  job_title: Consultant
+  dates: Jan 2015 - Dec 2016
+  description:   Executive Consultant projects for companies which don’t have a IT-Driven position. Offering High Tech services based on their demands with the goal of optimizing productivity.
   
-
-  IT Consultant as a “freelancer”. (2010-2014/ 2019-2020)
-  Executive Consultant jobs for companies which don’t have a IT-Driven position. Offering High Tech services based on their demands with the goal of optimizing productivity.
-
-  Cryptocurrency Mining Executive at LIONCOMPUTER.COM (June 2017-Aug 2018)
-  Setup, Troubleshoot and Upgrade Mining Rigs (for the first time in Iran).
-  Non-Stop Research About Cryptocurrency and related markets.
-  Teach, supervise teammates.
-  Time and Resource management. 
- 
-  Editor And Content Creator/Manager at Coinit.ir (Oct 2017-Aug 2018)
-  Creating Contents which lead to a transparent view into cryptocurrency market.
-  Creating new contents and translate content back into fluent Farsi.
-  Lecturing Mining in different Events and exhibitions.
+  - layout: left
+  company: Lion Computer
+  link: Lioncomputer.com
+  job_title: Cryptocurrency Mining Executive
+  dates: April 2017 - Aug 2018
+  description: Setup, Troubleshoot and Upgrade Mining Rigs (for the first time in Iran).Longterm Research About Cryptocurrency and related markets. Teach, supervise teammates. Time and Resource management.
+  
+  - layout: left
+  company: Coinit
+  link: Coinit.ir 
+  job_title: Auditor, Content Creator/Manager, Co-founder
+  dates: Oct 2017 - Aug 2018
+  description:   Creating Contents which lead to a transparent view into cryptocurrency market. Creating new contents and translate content back into fluent Farsi. Lecturing Mining in different Events and exhibitions.
