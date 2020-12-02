@@ -1,9 +1,7 @@
 - layout: left
-  company: TAKIN POUYESH AVIZHEH 
+  company: TAKIN-POUYESH-AVIZHEH 
   job_title: IT Director
   dates: 2009 - 2012
-  quote: >
-   Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
   description: Responsible for IT infrastructure Implementation and maintenance. Help Desk - Solving Co-Workers IT related Issues.
   
 
@@ -20,7 +18,7 @@
   description:   Executive Consultant projects for companies which don’t have a IT-Driven position. Offering High Tech services based on their demands with the goal of optimizing productivity.
   
 
-  company: Lion Computer
+  company: LionComputer
   link: Lioncomputer.com
   job_title: Cryptocurrency Mining Executive
   dates: April 2017 - Aug 2018
