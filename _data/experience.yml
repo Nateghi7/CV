@@ -1,15 +1,8 @@
-- layout: left
-  - company: Takin Pouyesh Avizheh
-     job_title: IT Director
-     dates: 2009 / 2012
-     description: |
-   Responsible for IT infrastructure Implementation and maintenance. Help Desk - Solving Co-Workers IT related Issues.
-  
-  
-  - company: Takshayan PC shop
-     job_title: Exec Director
-     dates: Jan 2015 / Dec 2016
-     description: |
+- layout: left  
+  company: Takshayan PC shop
+  job_title: Exec Director
+  dates: Jan 2015 / Dec 2016
+  description: |
    Hardware/Software Implementation. Sales and customer services.
   
   
