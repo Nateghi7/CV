@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--========== BOX ICONS ==========-->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+
+        <!--========== CSS ==========-->
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <title>Responsive resume cv</title>
+    </head>
+    <body>
+        <!--========== HEADER ==========-->
+        <header class="l-header" id="header">
+            <nav class="nav bd-container">
+                <a href="#" class="nav__logo">Mohammad Reza</a>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a href="#home" class="nav__link">
+                                <i class='bx bx-home nav__icon'></i>Home 
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#profile" class="nav__link">
+                                <i class='bx bx-user' ></i>Profile
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#education" class="nav__link">
+                                <i class='bx bx-book'></i>Education 
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#skills" class="nav__link">
+                                <i class='bx bx-receipt'></i>Skills
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#experience" class="nav__link">
+                                <i class='bx bx-briefcase' ></i>Experience 
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#certificates" class="nav__link">
+                                <i class='bx bx-award' ></i>Certificates
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#references" class="nav__link">
+                                <i class='bx bx-link-external'></i>References
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-grid-alt' ></i> 
+                </div>
+            </nav>
+        </header>
+
+        <main class="l-main bd-container">
+            <!-- All elements within this div, is generated in PDF -->
+            <div class="resume" id="area-cv">
+                <div class="resume__left">
+                    <!--========== HOME ==========-->
+                    <section class="home" id="home">
+                        <div class="home__container section bd-grid">
+                                <div class="home__data bd-grid">
+                                <img src="assets/img/perfil.jpg" alt="" class="home__img">
+
+                                <h1 class="home__title">Mohammad Reza <b>Nateghi</b></h1>
+                                <h3 class="home__profession">IT Admin / Consultant</h3>
+                                
+                                <!-- Button to generate and download the pdf. Available for desktop. -->
+                                <div>
+                                    <a download="" href="assets/pdf/ResumeCv.pdf" class="home__buttom-movil">Download</a>
+                                </div>
+                            </div>
+
+                            <div class="home_address bd-grid">
+                                <span class="home__information">
+                                    <i class='bx bx-map home__icon' ></i> Tehran, Iran
+                                </span>
+                                <span class="home__information">
+                                    <i class='bx bx-envelope home__icon' ></i> Nateghi7@gmail.com
+                                </span>
+                                <span class="home__information">
+                                    <i class='bx bx-phone home__icon' ></i> 0937-220-4408
+                                </span>
+                            </div>
+                        </div>
+                        
+                        <!-- Theme change button -->
+                        <i class='bx bx-moon change-theme' title="Theme" id="theme-button"></i>
+
+                        <!-- Button to generate and download the pdf. Available for desktop. -->
+
+                        <i class="bx bx-download generate-pdf" title="Generate PDF" id="resume-button"></i>
+                    </section>          
+
+                    <!--========== SOCIAL ==========-->
+                    <section class="social section">
+                        <h2 class="section-title">SOCIAL</h2>
+
+                        <div class="social__container bd-grid">
+                            <a href="https://linkedin.com/" target="_blank" class="social__link">
+                                <i class="bx bxl-linkedin-square social__icon"></i> @smithmat
+                            </a>
+                            <a href="https://t.me/btczen" target="" class="social__link">
+                                <i class="bx bxl-telegram social__icon"></i> @btczen
+                            </a>
+                            <a href="" target="_blank" class="social__link">
+                                <i class="bx bxl-github social__icon"></i> @smithmat
+                            </a>
+                        </div>
+                    </section>
+
+                    <!--========== PROFILE ==========-->
+                    <section class="profile section" id="profile">
+                        <h2 class="section">Profile</h2>
+
+                        <p class="profile__description">Professional IT Administrator served as Consultant, Executive Manager, Web Admin, Auditor and Content Manager.Began my career as Software, Hardware, Helpdesk technician. Continued as a freelancer, Consultant and eventually as an Executive and Technical Manager. Started a startup as a cofunder and content manager. I am currently focused on my BS in Software Engineering alongside with CCNA certification. In pursuit of expanding my knowledge in computer networks and cyber security that I find absolutely fascinating. I am dedicating my time and effort to apply for a Master program in related fields.</p> 
+                    </section>
+                    
+                    <!--========== EDUCATION ==========-->
+                    <section class="education section" id="education">
+                        <h2 class="section-title">Education</h2>
+
+                        <div class="education__container bd-grid">
+                            <div class="education__content"> 
+                                <div class="edication__time">
+                                    <span class="education__rounder"></span>
+                                    <span class="education__line"></span>
+                                </div>
+                                
+                                <div class="education_data bd-grid">
+                                    <h3 class="education__title">B.Sc. Computer Engineering</h3>
+                                    <span class="education__studies">PNU Tehran</span>
+                                    <span class="education__year">2019 - 2022 (CGPA 15/20)</span>
+                                </div>
+                            </div>
+                        </div>
+
+                    </section>
+
+                    <!--========== SKILLS  ==========-->
+                    <section class="skills section" id="skills">
+                        <h2 class="section-title">Skills</h2>
+
+                        <div class="skills__content bd-grid">
+                            <ul class="skills__data">
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span>Comp. Networks
+                                </li>
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span>Linux Admin
+                                </li>
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span>Win Admin
+                                </li>
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span>Project mgmt.
+                                </li>
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span>Team leader/player
+                                </li>
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span>JS, CSS, HTML
+                                </li>
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span>Bitcoin, BC
+                                </li>
+                            <!---</ul>--->
+
+                            <!---<ul class="skills__data">--->
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span>Crypto mining exec
+                                </li>
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span>Consultant
+                                </li>
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span>Lecturer
+                                </li>
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span>Content mgmt.
+                                </li>
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span>Self study
+                                </li>
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span>DIY
+                                </li>
+                            </ul>
+                        </div>
+                    </section>
+                </div>
+
+                <div class="resume__right">
+                    
+                    <!--========== EXPERIENCE ==========-->
+                    <section class="experience section" id="experience">
+                        <h2 class="section-title">Experience</h2>
+
+                        <div class="experience__container bd-grid">
+                            <div class="experience__content">
+                                <div class="experience__time">
+                                    <span class="experience__rounder"></span>
+                                    <span class="experience__line"></span>
+                                </div>
+
+                                <div class="experience__data bd-grid">
+                                    <h3 class="experience__title">Content Manager, Co-founder</h3>
+                                    <span class="experience__company">From 2017 to 2018 | Coinit.ir</span>
+                                    <p class="experience__description">Work on this. Jump on that. Work on this. Jump on that. Work on this. Jump on that. Work on this. Jump on that.</p>
+                                </div>
+                            </div>
+
+                            <div class="experience__content">
+                                <div class="experience__time">
+                                    <span class="experience__rounder"></span>
+                                    <span class="experience__line"></span>
+                                </div>
+
+                                <div class="experience__data bd-grid">
+                                    <h3 class="experience__title">Technical Manager, Exec Manager</h3>
+                                    <span class="experience__company">From 2017 to 2018 | Lioncomputer.com</span>
+                                    <p class="experience__description">Work on this. Jump on that. Work on this. Jump on that. Work on this. Jump on that.</p>
+                                </div>
+                            </div>
+
+                            <div class="experience__content">
+                                <div class="experience__time">
+                                    <span class="experience__rounder"></span>
+                                    <span class="experience__line"></span>
+                                </div>
+
+                                <div class="experience__data bd-grid">
+                                    <h3 class="experience__title">Freelance IT Consultant</h3>
+                                    <span class="experience__company">From 2015 to 2017 | Freelance</span>
+                                    <p class="experience__description">Work on this. Jump on that. Work on this. Jump on that. Work on this. Jump on that.</p>
+                                </div>
+                            </div>
+
+                            <div class="experience__content">
+                                <div class="experience__time">
+                                    <span class="experience__rounder"></span>
+                                    <span class="experience__line"></span>
+                                </div>
+
+                                <div class="experience__data bd-grid">
+                                    <h3 class="experience__title">Store Manager</h3>
+                                    <span class="experience__company">From 2010 to 2015 | Tak-Shayan PC store</span>
+                                    <p class="experience__description">Work on this. Jump on that. Work on this. Jump on that. Work on this. Jump on that.</p>
+                                </div>
+                            </div>
+
+                            <div class="experience__content">
+                                <div class="experience__time">
+                                    <span class="experience__rounder"></span>
+                                </div>
+
+                                <div class="experience__data bd-grid">
+                                    <h3 class="experience__title">IT Technician</h3>
+                                    <span class="experience__company">From 2008 to 2009 | Takin Pouyesh Avizhe</span>
+                                    <p class="experience__description">Work on this. Jump on that. Work on this. Jump on that. Work on this. Jump on that.</p>
+                                </div>
+                            </div>
+
+                        </div>
+                    </section>
+
+                    <!--========== CERTIFICATES ==========-->
+
+                    <section class="certificate section" id="certificates">
+                        <h2 class="section-title">Certificates</h2>
+                        
+                        <div class="certificate__container bd-grid">
+                            <div class="certificate__content">
+                                <h3 class="certificate__title">CCNA(expected - 2022)</h3>
+                                <p class="certificate__description">Studying for 100-101 / 200-101 and it would be done this year.</p>
+                            </div>
+
+                            <div class="certificate__content">
+                                <h3 class="certificate__title">Solodity Programming Lan @ AUT</h3>
+                                <p class="certificate__description">Studying for 100-101 / 200-101 and it would be done this year.</p>
+                            </div>
+
+                            <div class="certificate__content">
+                                <h3 class="certificate__title">English Advance 3 @ ILI</h3>
+                                <p class="certificate__description">Studying for 100-101 / 200-101 and it would be done this year.</p>
+                            </div>
+                        </div>
+                    </section>
+                    <!--========== REFERENCES ==========-->
+                    <section class="references section" id="references">
+                        <h2 class="section-title">References</h2>
+                    
+                        <div class="references__container bd-grid">
+                            <div class="references__content bd-grid">
+                                <span class="references__subtitle">Professor</span>
+                                <h3 class="references__title">Dr. Seyed Ali Razavi Ebrahimi</h3>
+                                <ul class="references__contact">
+                                    <li>Phone: 021-224-58-313</li>
+                                    <li>Cell: 0912-394-1660</li>
+                                    <li>Email:  ali_razavi@pnu.ac.ir</li>
+                                </ul>
+                            </div>
+
+                            <div class="references__content bd-grid">
+                                <span class="references__subtitle">CEO - Lioncomputer - Coinit.ir</span>
+                                <h3 class="references__title">Mr. Saeed Hosseini Gilvae</h3>
+                                <ul class="references__contact">
+                                    <li>Phone: 021-224-58-313</li>
+                                    <li>Mobile: 0912-394-1660</li>
+                                    <li>Email: User@email.com</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </section>
+                    <!--========== LANGUAGES ==========-->
+                    <section class="languages section">
+                        <h2 class="section-title">Languages</h2>
+                        
+                        <div class="languages__container">
+                            <ul class="languages__content bd-grid">
+                                <li class="languages__name">
+                                    <span class="languages__circle"></span> English
+                                </li>
+                                <li class="languages__name">
+                                    <span class="languages__circle"></span> Farsi
+                                </li>
+                            </ul>
+                        </div>
+                    </section>
+                
+
+
+                    <!--========== INTERESTS ==========-->
+                    <section class="interests section">
+                        <h2 class="section-title">Interests</h2>
+                        
+                        <div class="interests__container bd-grid">
+
+                            <div class="interests content">
+                                <i class='bx bx-music interests__icon'></i>
+                                <span class="interests__name">Music</span>    
+                            </div>
+
+                            <div class="interests content">
+                                <i class='bx bxs-basketball interests__icon'></i>
+                                <span class="interests__name">Basketball</span>    
+                            </div>
+
+                            <div class="interests content">
+                                <i class='bx bxs-book-open interests__icon'></i>
+                                <span class="interests__name">Reading</span>    
+                            </div>
+                            
+                            <div class="interests content">
+                                <i class='bx bxs-plane-alt interests__icon'></i>
+                                <span class="interests__name">Travel</span>    
+                            </div>
+
+                            <div class="interests content">
+                                <i class='bx bx-network-chart interests__icon'></i>
+                                <span class="interests__name"> Networks</span>    
+                            </div>
+
+                            <div class="interests content">
+                                <i class='bx bxs-invader interests__icon'></i>
+                                <span class="interests__name">CyberSec</span>    
+                            </div>
+
+                            <div class="interests content">
+                                <i class='bx bx-lock-open interests__icon'></i>
+                                <span class="interests__name">Open source</span>    
+                            </div>
+
+                            <div class="interests content">
+                                <i class='bx bxl-bitcoin interests__icon'></i>
+                                <span class="interests__name">Bitcoin</span>    
+                            </div>
+
+                        </div>
+                    </section>
+
+                </div>
+            </div>        
+        </main>
+
+        <!--========== SCROLL TOP ==========-->
+        <a href="#" class="scrolltop" id="scroll-top">
+            <i class='bx bxs-chevrons-up scrolltop__icon' ></i>
+        </a>
+
+        <!--========== HTML2PDF ==========-->
+        <script src="assets/js/html2pdf.bundle.min.js"></script>
+
+        <!--========== MAIN JS ==========-->
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
