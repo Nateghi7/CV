@@ -642,13 +642,17 @@ font-size: var(--smaller-font-size);
 
   .languages__content{
     grid-template-columns: repeat(3,max-content);
-    column-gap: 14rem;
+    column-gap: 5rem;
     align-items: center;
   }
 
   .interests__container{
     grid-template-columns: repeat(4,max-content);
     column-gap: 3rem;
+  }
+
+  .experience__content{
+    text-align: justify;
   }
 
 }
